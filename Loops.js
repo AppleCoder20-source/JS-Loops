@@ -13,16 +13,12 @@ for(let i = 1; i <= 100; i++){
     }
     else {
         output += i; // If not divisible by 3 or 5, print the number
-    }
-    
+    }  
     console.log(output); // If a number is not divisible by either 3 or 5, log the number.
 }
-
-
 //Problem 2
 let n = 5; 
 let currentNumber = n + 1; 
-
 
 while (true) {
     let Prime = true;
